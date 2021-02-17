@@ -1,0 +1,24 @@
+{
+  "name": "note-taker-app",
+  "version": "1.0.0",
+  "description": "An app that allows you to create, save and delete notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kferguson1/Note-Taker-App.git"
+  },
+  "author": "Kiara Ferguson, github.com/kferguson1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kferguson1/Note-Taker-App/issues"
+  },
+  "homepage": "https://github.com/kferguson1/Note-Taker-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
