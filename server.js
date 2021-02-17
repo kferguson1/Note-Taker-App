@@ -1,11 +1,11 @@
 // Dependencies
 const express = require('express');
 
-// Set up express
+// Setting up express
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// /public line is needed in order to access CSS files properly
+// /need this to access CSS files
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
