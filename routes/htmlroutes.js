@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = (app) => {
     // get note HTML file
     app.get('/notes', (req, res) => {
-        res.sendFile(path.join(__dirname, '../public/notes.html'));
+        res.sendFile(path.join(__dirname, '../Public/notes.html'));
     });
 
     app.post('/notes', (req, res) => {
@@ -12,7 +12,7 @@ module.exports = (app) => {
 
     // get index HTML file
     app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, '../public/index.html'));
+        res.sendFile(path.join(__dirname, '../Public/index.html'));
     })
 
 }
